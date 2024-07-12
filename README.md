@@ -1,4 +1,4 @@
-# Notes App
+# Notes Application
 
 This project is a simple notes application built using React for the frontend and Express with MongoDB for the backend.
 
