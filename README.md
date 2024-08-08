@@ -1,20 +1,28 @@
 # Notes Management Web Application
 
-This project is a continuation of the homework assignment HW1. The goal was to build a backend server using Express.js, replacing the JSON server from HW1. The backend interacts with a MongoDB database hosted on Atlas, handling CRUD operations for notes.
+This repository contains a simple note-taking web application built using Node.js, Express, MongoDB, and React. The backend is an Express server connected to a MongoDB Atlas database, and the frontend is a React app that allows users to interact with notes.
 
-## Project Structure
+## Features
 
-- **frontend/**: Contains the frontend code from HW1, updated to interact with the new backend.
-- **backend/**: Contains the Express.js backend code, which connects to MongoDB Atlas to manage the notes.
+- **CRUD Operations**: Create, Read, Update, and Delete notes.
+- **Pagination**: Fetch notes in a paginated format.
+- **MongoDB Integration**: All notes are stored in MongoDB Atlas.
+- **Logging**: Logs HTTP requests to a log file using Morgan.
 
-## Getting Started
 
-### Prerequisites
+Ensure you have the following installed:
 
 - Node.js
 - npm (Node Package Manager)
-- MongoDB Atlas account (or a local MongoDB server for development)
-- Postman (for backend testing)
+- MongoDB Atlas account
+- Git
+
+## Project Structure
+
+- **frontend/**: Contains the frontend code, updated to interact with the new backend.
+- **backend/**: Contains the Express.js backend code, which connects to MongoDB Atlas to manage the notes.
+
+## Getting Started
 
 ### Setup
 
